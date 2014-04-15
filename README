@@ -1,0 +1,7 @@
+lol README!
+at this current time, the script should give you a copy of my desktop settings as used in awesome-wm... 
+
+to execute, simply run the following "wrapper?" from the cli on your fresh ubuntu 13.10 or greater install.
+        *(you'll need to apt-get install puppet-master package as well)
+
+cd ~ ; mkdir runmeAwesomely ; cd runmeAwesomely ; wget https://github.com/MyAwesomePuppetDesktop/1/archive/master.zip ; unzip master.zip ; mv master/* ./ ; rm -rf ./master* ; sudo puppet apply manifests/lolyousaid.pp ; echo "complete- or not, good luck, you'll find things" ; echo "in /etc/xdg/awesome" ; echo "in /usr/share/awesome/" ; echo "to customize some touchy things see /usr/share/touchegg/" ; echo "for ... brb"
